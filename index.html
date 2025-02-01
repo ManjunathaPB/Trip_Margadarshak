@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="entered">
+
+<head>
+  <title> Sign In Form </title>
+  <meta name="viewport" content="width= device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+  <body>
+    <form name="myForm" action ="signin.php" method="POST">
+
+      <div class="login-box">
+
+        <h1> Sign In </h1>
+
+        <div class="textbox">
+           
+          <input type="text" placeholder="Email" name="semail" value="" required> 
+
+        </div>
+        <div class="textbox">
+          <input type="password" placeholder="Password" name="pass" value="" maxlength="6" pattern="[0-9]+" title="Only Digits" required>
+        </div>
+          
+        <input class="btn" type="submit" name="submit" value="Sign in"> 
+         <a class="gena" href="forgot.php"> Forgot password ? <span>Click here</span></a><br><br> 
+        <a class="gena" href="save1.php">    Don't have an account ? <span>Register</span></a> 
+      </div>
+
+    </form>
+
+  </body>
+</html>
+
+
